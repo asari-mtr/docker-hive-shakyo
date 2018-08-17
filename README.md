@@ -11,3 +11,8 @@ To run a PrestDB with Hive connector:
 ```
 docker-compose up -d presto-coordinator
 ```
+
+Load data into Hive
+```
+docker-compose exec hive-server bash
+```
